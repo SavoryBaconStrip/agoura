@@ -358,6 +358,14 @@ section { padding: 6rem 0; }
   object-fit: contain;
 }
 
+.hero-tree-card img.tree-photo {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: calc(var(--radius) + 2px);
+  box-shadow: var(--shadow-sm);
+}
+
 .hero-tree-card .card-label {
   font-size: 0.75rem;
   font-weight: 600;
@@ -473,6 +481,12 @@ section { padding: 6rem 0; }
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.about-tree-large img.tree-photo {
+  border-radius: calc(var(--radius) + 4px);
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
 }
 
 .about-accent-card {
